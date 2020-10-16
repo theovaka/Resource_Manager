@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./sgcc_base.dunnington-x86-m64 gcc-pp.c -O5 -finline-limit=24000 -fgcse -fgcse-las -fgcse-lm -fgcse-sm -o gcc-pp.opts-O5_-finline-limit_24000_-fgcse_-fgcse-las_-fgcse-lm_-fgcse-sm.s > gcc-pp.opts-O5_-finline-limit_24000_-fgcse_-fgcse-las_-fgcse-lm_-fgcse-sm.out 2>> gcc-pp.opts-O5_-finline-limit_24000_-fgcse_-fgcse-las_-fgcse-lm_-fgcse-sm.err 1> gcc-pp.opts-O5_-finline-limit_24000_-fgcse_-fgcse-las_-fgcse-lm_-fgcse-sm.out 2> gcc-pp.opts-O5_-finline-limit_24000_-fgcse_-fgcse-las_-fgcse-lm_-fgcse-sm.err':
+
+      433855649993      cycles                    [57.15%]
+      504903306704      instructions              #    1.16  insns per cycle         [71.43%]
+         307875551      LLC-load-misses                                              [71.43%]
+          94407122      LLC-store-misses                                             [71.43%]
+         807911742      dTLB-load-misses                                             [71.43%]
+          73986498      dTLB-store-misses                                            [71.42%]
+          49438469      iTLB-load-misses                                             [57.14%]
+
+     167.595221267 seconds time elapsed
+

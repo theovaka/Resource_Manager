@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./cpuxalan_r_base.dunnington-x86-m64 -v allbooks.xml xalanc.xsl > train-allbooks.out 2>> train-allbooks.err 1> train-allbooks.out 2> train-allbooks.err':
+
+      177322674214      cycles                   
+      261811313957      instructions              #    1.48  insns per cycle        
+          26997048      LLC-load-misses                                             
+           9453325      LLC-store-misses                                            
+
+      69.006196498 seconds time elapsed
+

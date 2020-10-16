@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./perlbench_r_base.dunnington-x86-m64 -I./lib checkspam.pl 2500 5 25 11 150 1 1 1 1 > checkspam.2500.5.25.11.150.1.1.1.1.out 2>> checkspam.2500.5.25.11.150.1.1.1.1.err 1> checkspam.2500.5.25.11.150.1.1.1.1.out 2> checkspam.2500.5.25.11.150.1.1.1.1.err':
+
+     1043898819030      cycles                    [57.14%]
+     1227711579798      instructions              #    1.18  insns per cycle         [71.43%]
+         946795504      LLC-load-misses                                              [71.42%]
+          51372690      LLC-store-misses                                             [71.43%]
+         315073625      dTLB-load-misses                                             [71.44%]
+          39149052      dTLB-store-misses                                            [71.43%]
+          37289742      iTLB-load-misses                                             [57.14%]
+
+     423.068930832 seconds time elapsed
+

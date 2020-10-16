@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./speed_pop2_base.dunnington-x86-m64 > pop2_s.out 2>> pop2_s.err 1> pop2_s.out 2> pop2_s.err':
+
+      543115052340      cycles                   
+      736713409653      instructions              #    1.36  insns per cycle        
+         788931018      LLC-load-misses                                             
+         518132282      LLC-store-misses                                            
+
+      62.715894433 seconds time elapsed
+

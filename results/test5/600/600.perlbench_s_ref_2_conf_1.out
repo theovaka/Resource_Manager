@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./perlbench_s_base.dunnington-x86-m64 -I./lib splitmail.pl 6400 12 26 16 100 0 > splitmail.6400.12.26.16.100.0.out 2>> splitmail.6400.12.26.16.100.0.err 1> splitmail.6400.12.26.16.100.0.out 2> splitmail.6400.12.26.16.100.0.err':
+
+     1716481884996      cycles                   
+      670189828755      instructions              #    0.39  insns per cycle        
+        1843647553      LLC-load-misses                                             
+          31510976      LLC-store-misses                                            
+
+     753.596023496 seconds time elapsed
+

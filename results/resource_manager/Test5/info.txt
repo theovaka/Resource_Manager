@@ -1,0 +1,20 @@
+benchmarks = ["520.omnetpp_r", "505.mcf_r", "519.lbm_r", "549.fotonik3d_r", "619.lbm_s", "649.fotonik3d_s", "654.roms_s", "603.bwaves_s"]
+X 4 instances
+
+input = ref
+
+
+1st instance of 600s running with initial conf -m 0 -N 0
+2nd instance of 600s running with initial conf -m 1 -N 1
+3rd instance of 600s running with initial conf -m 2 -N 2
+4th instance of 600s running with initial conf -m 3 -N 3
+
+100 page migration commands across all nodes every 30 sec as defined in automatic_migration.txt file
+
+conf1: Best pick
+conf2: Best+ pick
+conf3: 
+conf4: 
+conf5: 
+conf6: 
+conf7:

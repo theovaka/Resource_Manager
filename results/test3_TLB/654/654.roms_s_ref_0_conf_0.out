@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./sroms_base.dunnington-x86-m64 < ocean_benchmark3.in > ocean_benchmark3.log 2>> ocean_benchmark3.err < ocean_benchmark3.in 1> ocean_benchmark3.log 2> ocean_benchmark3.err':
+
+    26630343269424      instructions             
+       54722222200      dTLB-load-misses                                            
+        9017539964      dTLB-store-misses                                           
+          83680300      iTLB-load-misses                                            
+
+    2829.844980360 seconds time elapsed
+

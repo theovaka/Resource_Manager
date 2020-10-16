@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./cpugcc_r_base.dunnington-x86-m64 gcc-pp.c -O3 -finline-limit=0 -fif-conversion -fif-conversion2 -o gcc-pp.opts-O3_-finline-limit_0_-fif-conversion_-fif-conversion2.s > gcc-pp.opts-O3_-finline-limit_0_-fif-conversion_-fif-conversion2.out 2>> gcc-pp.opts-O3_-finline-limit_0_-fif-conversion_-fif-conversion2.err 1> gcc-pp.opts-O3_-finline-limit_0_-fif-conversion_-fif-conversion2.out 2> gcc-pp.opts-O3_-finline-limit_0_-fif-conversion_-fif-conversion2.err':
+
+      196687085769      instructions             
+         292104950      dTLB-load-misses                                            
+          25704283      dTLB-store-misses                                           
+          26062430      iTLB-load-misses                                            
+
+      77.314709790 seconds time elapsed
+

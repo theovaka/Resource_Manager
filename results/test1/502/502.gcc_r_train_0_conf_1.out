@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./cpugcc_r_base.dunnington-x86-m64 200.c -O3 -finline-limit=50000 -o 200.opts-O3_-finline-limit_50000.s > 200.opts-O3_-finline-limit_50000.out 2>> 200.opts-O3_-finline-limit_50000.err 1> 200.opts-O3_-finline-limit_50000.out 2> 200.opts-O3_-finline-limit_50000.err':
+
+       79625915999      cycles                   
+      102506798465      instructions              #    1.29  insns per cycle        
+          16379671      LLC-load-misses                                             
+          16918794      LLC-store-misses                                            
+
+      36.231190266 seconds time elapsed
+

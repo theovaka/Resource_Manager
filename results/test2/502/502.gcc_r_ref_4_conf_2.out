@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./cpugcc_r_base.dunnington-x86-m64 ref32.c -O3 -fselective-scheduling -fselective-scheduling2 -o ref32.opts-O3_-fselective-scheduling_-fselective-scheduling2.s > ref32.opts-O3_-fselective-scheduling_-fselective-scheduling2.out 2>> ref32.opts-O3_-fselective-scheduling_-fselective-scheduling2.err 1> ref32.opts-O3_-fselective-scheduling_-fselective-scheduling2.out 2> ref32.opts-O3_-fselective-scheduling_-fselective-scheduling2.err':
+
+      379917019928      cycles                   
+      263020975283      instructions              #    0.69  insns per cycle        
+        1135388728      LLC-load-misses                                             
+         131495818      LLC-store-misses                                            
+
+     146.416102539 seconds time elapsed
+

@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./xalancbmk_s_base.dunnington-x86-m64 -v test.xml xalanc.xsl > test-test.out 2>> test-test.err 1> test-test.out 2> test-test.err':
+
+         255855353      cycles                   
+         410412915      instructions              #    1.60  insns per cycle        
+             14104      LLC-load-misses                                             
+            119715      LLC-store-misses                                            
+
+       0.110146957 seconds time elapsed
+

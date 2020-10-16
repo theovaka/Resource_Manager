@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./xz_s_base.dunnington-x86-m64 cpu2006docs.tar.xz 1 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 637616 -1 2 > cpu2006docs.tar-1-2.out 2>> cpu2006docs.tar-1-2.err 1> cpu2006docs.tar-1-2.out 2> cpu2006docs.tar-1-2.err':
+
+        1603326858      cycles                    [58.00%]
+        1648275410      instructions              #    1.03  insns per cycle         [72.16%]
+            451887      LLC-load-misses                                              [72.14%]
+           8408201      LLC-store-misses                                             [72.15%]
+           1197683      dTLB-load-misses                                             [72.17%]
+            664597      dTLB-store-misses                                            [70.21%]
+               470      iTLB-load-misses                                             [56.13%]
+
+       0.664804503 seconds time elapsed
+

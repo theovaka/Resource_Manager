@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./xz_r_base.dunnington-x86-m64 IMG_2560.cr2.xz 40 ec03e53b02deae89b6650f1de4bed76a012366fb3d4bdc791e8633d1a5964e03004523752ab008eff0d9e693689c53056533a05fc4b277f0086544c6c3cbbbf6 40822692 40824404 4 > IMG_2560.cr2-40-4.out 2>> IMG_2560.cr2-40-4.err 1> IMG_2560.cr2-40-4.out 2> IMG_2560.cr2-40-4.err':
+
+      307600858595      cycles                   
+       43531349139      instructions              #    0.14  insns per cycle        
+         300312104      LLC-load-misses                                             
+          20830685      LLC-store-misses                                            
+
+     134.988532709 seconds time elapsed
+

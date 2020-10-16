@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./namd_r_base.dunnington-x86-m64 --input apoa1.input --output apoa1.ref.output --iterations 65 > namd.out 2>> namd.err 1> namd.out 2> namd.err':
+
+     1264797427249      cycles                    [57.14%]
+     2651152997753      instructions              #    2.10  insns per cycle         [71.43%]
+         394402226      LLC-load-misses                                              [71.42%]
+          43012436      LLC-store-misses                                             [71.43%]
+          25598027      dTLB-load-misses                                             [71.43%]
+           4273984      dTLB-store-misses                                            [71.43%]
+            885837      iTLB-load-misses                                             [57.15%]
+
+     494.095221110 seconds time elapsed
+

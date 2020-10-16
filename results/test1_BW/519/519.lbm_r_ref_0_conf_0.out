@@ -1,0 +1,79 @@
+
+ Intel(r) Performance Counter Monitor: Memory Bandwidth Monitoring Utility V2.11 (2016-04-20 12:01:09 +0200 ID=56de28a)
+
+ Copyright (c) 2009-2016 Intel Corporation
+ This utility measures memory bandwidth per channel or per DIMM rank in real-time
+
+Number of physical cores: 32
+Number of logical cores: 64
+Number of online logical cores: 64
+Threads (logical cores) per physical core: 2
+Num sockets: 4
+Physical cores per socket: 8
+Core PMU (perfmon) version: 3
+Number of core PMU generic (programmable) counters: 4
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2200000000 Hz
+Package thermal spec power: 95 Watt; Package minimum power: 52 Watt; Package maximum power: 150 Watt; 
+ERROR: QPI LL monitoring device (0:63:8:2) is missing. The QPI statistics will be incomplete or missing.
+ERROR: QPI LL monitoring device (0:63:9:2) is missing. The QPI statistics will be incomplete or missing.
+Socket 0: 1 memory controllers detected with total number of 4 channels. 0 QPI ports detected.
+ERROR: QPI LL monitoring device (0:127:8:2) is missing. The QPI statistics will be incomplete or missing.
+ERROR: QPI LL monitoring device (0:127:9:2) is missing. The QPI statistics will be incomplete or missing.
+Socket 1: 1 memory controllers detected with total number of 4 channels. 0 QPI ports detected.
+ERROR: QPI LL monitoring device (0:191:8:2) is missing. The QPI statistics will be incomplete or missing.
+ERROR: QPI LL monitoring device (0:191:9:2) is missing. The QPI statistics will be incomplete or missing.
+Socket 2: 1 memory controllers detected with total number of 4 channels. 0 QPI ports detected.
+ERROR: QPI LL monitoring device (0:255:8:2) is missing. The QPI statistics will be incomplete or missing.
+ERROR: QPI LL monitoring device (0:255:9:2) is missing. The QPI statistics will be incomplete or missing.
+Socket 3: 1 memory controllers detected with total number of 4 channels. 0 QPI ports detected.
+
+Detected Intel(R) Xeon(R) CPU E5-4620 0 @ 2.20GHz "Intel(r) microarchitecture codename Sandy Bridge-EP/Jaketown"
+Update every 1 seconds
+Error while reading perf data. Result is -1
+Check if you run other competing Linux perf clients.
+
+Executing "numactl" command:
+DEBUG: caught signal to interrupt (Child exited).
+Program numactl launched with PID: 7125
+Program exited with status 0
+Error while reading perf data. Result is -1
+Check if you run other competing Linux perf clients.
+Time elapsed: 569815 ms
+Called sleep function for 1000 ms
+|---------------------------------------||---------------------------------------|
+|--             Socket  0             --||--             Socket  1             --|
+|---------------------------------------||---------------------------------------|
+|--     Memory Channel Monitoring     --||--     Memory Channel Monitoring     --|
+|---------------------------------------||---------------------------------------|
+|-- Mem Ch  0: Reads (MB/s):  1121.50 --||-- Mem Ch  0: Reads (MB/s):     0.04 --|
+|--            Writes(MB/s):   560.20 --||--            Writes(MB/s):     0.01 --|
+|-- Mem Ch  1: Reads (MB/s):  1129.88 --||-- Mem Ch  1: Reads (MB/s):     0.04 --|
+|--            Writes(MB/s):   568.56 --||--            Writes(MB/s):     0.01 --|
+|-- NODE 0 Mem Read (MB/s) :  2251.37 --||-- NODE 1 Mem Read (MB/s) :     0.08 --|
+|-- NODE 0 Mem Write(MB/s) :  1128.76 --||-- NODE 1 Mem Write(MB/s) :     0.01 --|
+|-- NODE 0 P. Write (T/s):     139481 --||-- NODE 1 P. Write (T/s):         24 --|
+|-- NODE 0 Memory (MB/s):     3380.13 --||-- NODE 1 Memory (MB/s):        0.10 --|
+|---------------------------------------||---------------------------------------|
+|---------------------------------------||---------------------------------------|
+|--             Socket  2             --||--             Socket  3             --|
+|---------------------------------------||---------------------------------------|
+|--     Memory Channel Monitoring     --||--     Memory Channel Monitoring     --|
+|---------------------------------------||---------------------------------------|
+|-- Mem Ch  0: Reads (MB/s):     0.07 --||-- Mem Ch  0: Reads (MB/s):     6.88 --|
+|--            Writes(MB/s):     0.01 --||--            Writes(MB/s):     6.84 --|
+|-- Mem Ch  1: Reads (MB/s):     0.07 --||-- Mem Ch  1: Reads (MB/s):     0.07 --|
+|--            Writes(MB/s):     0.02 --||--            Writes(MB/s):     0.03 --|
+|-- NODE 2 Mem Read (MB/s) :     0.15 --||-- NODE 3 Mem Read (MB/s) :     6.94 --|
+|-- NODE 2 Mem Write(MB/s) :     0.04 --||-- NODE 3 Mem Write(MB/s) :     6.87 --|
+|-- NODE 2 P. Write (T/s):         96 --||-- NODE 3 P. Write (T/s):     106368 --|
+|-- NODE 2 Memory (MB/s):        0.18 --||-- NODE 3 Memory (MB/s):       13.81 --|
+|---------------------------------------||---------------------------------------|
+        |---------------------------------------||---------------------------------------|
+        |--                   System Read Throughput(MB/s):   2258.55                  --|
+        |--                  System Write Throughput(MB/s):   1135.68                  --|
+        |--                 System Memory Throughput(MB/s):   3394.22                  --|
+        |---------------------------------------||---------------------------------------|
+Cleaning up

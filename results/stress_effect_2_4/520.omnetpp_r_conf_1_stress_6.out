@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./omnetpp_r_base.dunnington-x86-m64 -c General -r 0 > omnetpp.General-0.out 2>> omnetpp.General-0.err 1> omnetpp.General-0.out 2> omnetpp.General-0.err':
+
+     3652547835560      cycles                    [71.43%]
+     1051587822043      instructions              #    0.29  insns per cycle         [85.71%]
+        7761830841      LLC-load-misses                                              [85.71%]
+         493746823      LLC-store-misses                                             [85.71%]
+        7782890658      dTLB-load-misses                                             [85.71%]
+         876614456      dTLB-store-misses                                            [85.71%]
+          44520000      iTLB-load-misses                                             [57.14%]
+
+    1664.552801285 seconds time elapsed
+

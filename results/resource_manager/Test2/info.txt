@@ -1,0 +1,18 @@
+benchmarks = ["600.perlbench_s", "641.leela_s", "644.nab_s", "648.exchange2_s", "619.lbm_s", "649.fotonik3d_s", "654.roms_s", "603.bwaves_s"]
+X 4 instances
+
+input = ref
+
+
+1st instance of 600s running with initial conf -m 0 -N 0
+2nd instance of 600s running with initial conf -m 1 -N 1
+3rd instance of 600s running with initial conf -m 2 -N 2
+4th instance of 600s running with initial conf -m 3 -N 3
+
+100 page migration commands across all nodes every 30 sec as defined in automatic_migration.txt file
+
+conf1: Best pick
+conf2: random
+conf3: random
+conf4: random
+conf5: worst

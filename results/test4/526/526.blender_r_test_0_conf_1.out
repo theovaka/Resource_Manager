@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./blender_r_base.dunnington-x86-m64 cube.blend --render-output cube_ --threads 1 -b -F RAWTGA -s 1 -e 1 -a > cube.1.spec.out 2>> cube.1.spec.err 1> cube.1.spec.out 2> cube.1.spec.err':
+
+        1018948884      cycles                   
+        1484874969      instructions              #    1.46  insns per cycle        
+            240346      LLC-load-misses                                             
+            605555      LLC-store-misses                                            
+
+       0.548099496 seconds time elapsed
+

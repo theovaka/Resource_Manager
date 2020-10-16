@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./imagick_r_base.dunnington-x86-m64 -limit disk 0 refrate_input.tga -edge 41 -resample 181% -emboss 31 -colorspace YUV -mean-shift 19x19+15% -resize 30% refrate_output.tga > refrate_convert.out 2>> refrate_convert.err 1> refrate_convert.out 2> refrate_convert.err':
+
+     4722444413240      instructions             
+          48554525      dTLB-load-misses                                            
+          29044660      dTLB-store-misses                                           
+             18946      iTLB-load-misses                                            
+
+     850.170371129 seconds time elapsed
+

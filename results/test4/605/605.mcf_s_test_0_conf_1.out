@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./mcf_s_base.dunnington-x86-m64 inp.in > inp.out 2>> inp.err 1> inp.out 2> inp.err':
+
+       51580473939      cycles                   
+       27376782360      instructions              #    0.53  insns per cycle        
+         156333083      LLC-load-misses                                             
+          18057076      LLC-store-misses                                            
+
+      19.927388561 seconds time elapsed
+

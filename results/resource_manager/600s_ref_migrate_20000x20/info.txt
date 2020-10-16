@@ -1,0 +1,5 @@
+benchmarks = ["600.perlbench_s", "641.leela_s", "644.nab_s", "648.exchange2_s", "619.lbm_s", "649.fotonik3d_s", "654.roms_s", "603.bwaves_s"]
+input = ref
+All benchmarks start with configuration -m 0 -N 0 and then the command for migration of 20000 pages from node 0 to node 1 every 100s is given for 20 times 
+conf1: Migrate with best pick method (sorted bandwidths)
+conf2: Migrate with random pick method

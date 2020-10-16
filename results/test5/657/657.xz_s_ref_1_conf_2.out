@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./xz_s_base.dunnington-x86-m64 cld.tar.xz 1400 19cf30ae51eddcbefda78dd06014b4b96281456e078ca7c13e1c0c9e6aaea8dff3efb4ad6b0456697718cede6bd5454852652806a657bb56e07d61128434b474 536995164 539938872 8 > cld.tar-1400-8.out 2>> cld.tar-1400-8.err 1> cld.tar-1400-8.out 2> cld.tar-1400-8.err':
+
+    24590809058532      cycles                   
+     3388810843771      instructions              #    0.14  insns per cycle        
+       41854663030      LLC-load-misses                                             
+         819814987      LLC-store-misses                                            
+
+    1336.085766664 seconds time elapsed
+

@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./x264_s_base.dunnington-x86-m64 --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o BuckBunny_New.264 BuckBunny.yuv 1280x720 > run_000-1000_x264_s_base_x264_pass1.out 2>> run_000-1000_x264_s_base_x264_pass1.err 1> run_000-1000_x264_s_base_x264_pass1.out 2> run_000-1000_x264_s_base_x264_pass1.err':
+
+      194475104500      cycles                   
+      510854890723      instructions              #    2.63  insns per cycle        
+          93528339      LLC-load-misses                                             
+          42733298      LLC-store-misses                                            
+
+      76.886805365 seconds time elapsed
+

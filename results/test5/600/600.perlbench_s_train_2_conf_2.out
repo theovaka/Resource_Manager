@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./perlbench_s_base.dunnington-x86-m64 -I. -I./lib scrabbl.pl < scrabbl.in > scrabbl.out 2>> scrabbl.err < scrabbl.in 1> scrabbl.out 2> scrabbl.err':
+
+       31617665501      cycles                   
+       25586964722      instructions              #    0.81  insns per cycle        
+           6062727      LLC-load-misses                                             
+           1033818      LLC-store-misses                                            
+
+      13.885511293 seconds time elapsed
+

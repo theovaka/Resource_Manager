@@ -1,0 +1,9 @@
+Test1: All Benchmarks alone in local, interleave, remote mode (CPU -> Node 0, Memory-> Node 0, Node 1 or Nodes 0, 1 interleave)
+
+Test2: Important Benchmarks in interleave and remote mode (CPU-> Node 0, Memory->Node 1 or Nodes 0, 1 interleave) while stress running on Node 1 with local memory (CPU-> Node 1, Memory Node 1)
+
+Test3: All Benchmarks in local, interleave, remote mode (CPU-> Node 0, Memory-> Node 0, Node 1 or Nodes 0, 1 interleave) while stress running on Node 0 with local memory (CPU-> Node 0, Memory-> Node 0)
+
+Test4: Important Benchmarks in interleave and remote mode (CPU-> Node 0, Memory->Node 1 or Nodes 0, 1 interleave) while 10 stress workers running on Node 1 with local memory (CPU-> Node 1, Memory Node 1)
+
+Test5: All Benchmarks in local, interleave, remote mode (CPU-> Node 0, Memory-> Node 0, Node 1 or Nodes 0, 1 interleave) while 10 stress workers running on Node 0 with local memory (CPU-> Node 0, Memory-> Node 0)

@@ -1,0 +1,8 @@
+600.perlbench_s	3030.741
+641.leela_s	4724.882
+644.nab_s	3833.9
+648.exchange2_s	4875.545
+619.lbm_s	3974.462
+649.fotonik3d_s	3807.079
+654.roms_s	5501.512
+603.bwaves_s	5159.767

@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./cpugcc_r_base.dunnington-x86-m64 ref32.c -O5 -o ref32.opts-O5.s > ref32.opts-O5.out 2>> ref32.opts-O5.err 1> ref32.opts-O5.out 2> ref32.opts-O5.err':
+
+      543790182126      cycles                    [57.15%]
+      187531395410      instructions              #    0.34  insns per cycle         [71.43%]
+        1893745334      LLC-load-misses                                              [71.43%]
+         151668739      LLC-store-misses                                             [71.43%]
+         293694604      dTLB-load-misses                                             [71.43%]
+          31274037      dTLB-store-misses                                            [71.43%]
+           6669645      iTLB-load-misses                                             [57.15%]
+
+     221.635483329 seconds time elapsed
+

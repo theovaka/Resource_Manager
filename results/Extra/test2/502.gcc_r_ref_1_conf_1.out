@@ -1,0 +1,11 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./cpugcc_r_base.dunnington-x86-m64 gcc-pp.c -O2 -finline-limit=36000 -fpic -o gcc-pp.opts-O2_-finline-limit_36000_-fpic.s > gcc-pp.opts-O2_-finline-limit_36000_-fpic.out 2>> gcc-pp.opts-O2_-finline-limit_36000_-fpic.err 1> gcc-pp.opts-O2_-finline-limit_36000_-fpic.out 2> gcc-pp.opts-O2_-finline-limit_36000_-fpic.err':
+
+      244864308797      cycles                   
+      232077904631      instructions              #    0.95  insns per cycle        
+         391639029      dTLB-load-misses                                            
+          34886686      dTLB-store-misses                                           
+          25442825      iTLB-load-misses                                            
+
+     111.379746034 seconds time elapsed
+

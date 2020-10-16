@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./nab_s_base.dunnington-x86-m64 gcn4dna 1850041461 300 > gcn4dna.out 2>> gcn4dna.err 1> gcn4dna.out 2> gcn4dna.err':
+
+     1302473307946      cycles                   
+      864023779881      instructions              #    0.66  insns per cycle        
+          66243215      LLC-load-misses                                             
+          17406381      LLC-store-misses                                            
+
+      40.295357166 seconds time elapsed
+

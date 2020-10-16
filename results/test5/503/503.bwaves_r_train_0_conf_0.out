@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./bwaves_r_base.dunnington-x86-m64 bwaves_1 < bwaves_1.in > bwaves_1.out 2>> bwaves_1.err < bwaves_1.in 1> bwaves_1.out 2> bwaves_1.err':
+
+      594469157133      cycles                   
+      706941193079      instructions              #    1.19  insns per cycle        
+        1124008214      LLC-load-misses                                             
+         229952761      LLC-store-misses                                            
+
+     260.650074415 seconds time elapsed
+

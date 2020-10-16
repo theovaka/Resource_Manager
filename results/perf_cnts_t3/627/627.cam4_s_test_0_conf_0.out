@@ -1,0 +1,14 @@
+/bin/bash: line 1: 40287 Segmentation fault      ./cam4_s_base.dunnington-x86-m64 > cam4_s_base.txt 2>> cam4_s_base.err > cam4_s_base.txt 2> cam4_s_base.err
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./cam4_s_base.dunnington-x86-m64 > cam4_s_base.txt 2>> cam4_s_base.err 1> cam4_s_base.txt 2> cam4_s_base.err':
+
+       91990330844      cycles                    [57.20%]
+       44118981340      instructions              #    0.48  insns per cycle         [71.51%]
+          29008764      LLC-load-misses                                              [71.50%]
+          39378706      LLC-store-misses                                             [71.45%]
+           7861446      dTLB-load-misses                                             [71.32%]
+           2987918      dTLB-store-misses                                            [71.40%]
+           2325369      iTLB-load-misses                                             [57.23%]
+
+       5.177673145 seconds time elapsed
+

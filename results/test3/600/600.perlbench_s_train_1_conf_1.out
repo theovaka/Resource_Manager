@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./perlbench_s_base.dunnington-x86-m64 -I./lib perfect.pl b 3 > perfect.b.3.out 2>> perfect.b.3.err 1> perfect.b.3.out 2> perfect.b.3.err':
+
+       12241715421      cycles                   
+       11090732944      instructions              #    0.91  insns per cycle        
+            728796      LLC-load-misses                                             
+            142630      LLC-store-misses                                            
+
+       4.793270642 seconds time elapsed
+

@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./nab_s_base.dunnington-x86-m64 hkrdenq 1930344093 1000 > hkrdenq.out 2>> hkrdenq.err 1> hkrdenq.out 2> hkrdenq.err':
+
+     1203820872093      cycles                   
+      420960856043      instructions              #    0.35  insns per cycle        
+          44157204      LLC-load-misses                                             
+           9195722      LLC-store-misses                                            
+
+      88.682243779 seconds time elapsed
+

@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./lbm_r_base.dunnington-x86-m64 20 reference.dat 0 1 100_100_130_cf_a.of > lbm.out 2>> lbm.err 1> lbm.out 2> lbm.err':
+
+        8422738702      cycles                   
+        9085138925      instructions              #    1.08  insns per cycle        
+          34718413      LLC-load-misses                                             
+          21063439      LLC-store-misses                                            
+
+       3.890595651 seconds time elapsed
+

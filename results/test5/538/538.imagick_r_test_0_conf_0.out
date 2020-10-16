@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./imagick_r_base.dunnington-x86-m64 -limit disk 0 test_input.tga -shear 25 -resize 640x480 -negate -alpha Off test_output.tga > test_convert.out 2>> test_convert.err 1> test_convert.out 2> test_convert.err':
+
+         284610985      cycles                   
+         106503046      instructions              #    0.37  insns per cycle        
+            100501      LLC-load-misses                                             
+            122563      LLC-store-misses                                            
+
+       0.243802154 seconds time elapsed
+

@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./blender_r_base.dunnington-x86-m64 sh5_reduced.blend --render-output sh5_reduced_ --threads 1 -b -F RAWTGA -s 234 -e 234 -a > sh5_reduced.234.spec.out 2>> sh5_reduced.234.spec.err 1> sh5_reduced.234.spec.out 2> sh5_reduced.234.spec.err':
+
+      487994570936      cycles                   
+      718431288425      instructions              #    1.47  insns per cycle        
+           7753657      LLC-load-misses                                             
+           3284131      LLC-store-misses                                            
+
+     189.883650650 seconds time elapsed
+

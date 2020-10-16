@@ -1,0 +1,4 @@
+benchmarks = ["500.perlbench_r", "508.namd_r", "541.leela_r", "544.nab_r", "520.omnetpp_r", "505.mcf_r", "519.lbm_r", "549.fotonik3d_r"]
+input = train
+conf1: all benchmarks -m 0 -N 0
+conf2: First four -m 1 -N 0, last four -m 0 -N 0 

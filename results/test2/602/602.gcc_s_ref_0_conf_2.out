@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./sgcc_base.dunnington-x86-m64 gcc-pp.c -O5 -fipa-pta -o gcc-pp.opts-O5_-fipa-pta.s > gcc-pp.opts-O5_-fipa-pta.out 2>> gcc-pp.opts-O5_-fipa-pta.err 1> gcc-pp.opts-O5_-fipa-pta.out 2> gcc-pp.opts-O5_-fipa-pta.err':
+
+     1626118434182      cycles                   
+     1238817639954      instructions              #    0.76  insns per cycle        
+       13658057027      LLC-load-misses                                             
+         166799030      LLC-store-misses                                            
+
+     627.018978606 seconds time elapsed
+

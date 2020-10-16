@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./xz_s_base.dunnington-x86-m64 input.combined.xz 40 a841f68f38572a49d86226b7ff5baeb31bd19dc637a922a972b2e6d1257a890f6a544ecab967c313e370478c74f760eb229d4eef8a8d2836d233d3e9dd1430bf 6356684 -1 8 > input.combined-40-8.out 2>> input.combined-40-8.err 1> input.combined-40-8.out 2> input.combined-40-8.err':
+
+      306569681390      cycles                   
+       99595391358      instructions              #    0.32  insns per cycle        
+         332591486      LLC-load-misses                                             
+          35770563      LLC-store-misses                                            
+
+     134.436070206 seconds time elapsed
+

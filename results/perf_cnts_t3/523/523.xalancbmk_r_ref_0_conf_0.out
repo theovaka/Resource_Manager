@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./cpuxalan_r_base.dunnington-x86-m64 -v t5.xml xalanc.xsl > ref-t5.out 2>> ref-t5.err 1> ref-t5.out 2> ref-t5.err':
+
+     1998532415867      cycles                    [57.14%]
+     1282875839653      instructions              #    0.64  insns per cycle         [71.43%]
+        4483874325      LLC-load-misses                                              [71.43%]
+         740302869      LLC-store-misses                                             [71.43%]
+       12788295184      dTLB-load-misses                                             [71.43%]
+          96215186      dTLB-store-misses                                            [71.43%]
+         117514937      iTLB-load-misses                                             [57.14%]
+
+     782.186807761 seconds time elapsed
+

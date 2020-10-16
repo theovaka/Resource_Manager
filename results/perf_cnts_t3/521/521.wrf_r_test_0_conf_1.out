@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./wrf_r_base.dunnington-x86-m64 > rsl.out.0000 2>> wrf.err 1> rsl.out.0000 2> wrf.err':
+
+       97342626894      cycles                    [57.14%]
+       96422313213      instructions              #    0.99  insns per cycle         [71.44%]
+         220067892      LLC-load-misses                                              [71.44%]
+          64680706      LLC-store-misses                                             [71.43%]
+           9436998      dTLB-load-misses                                             [71.45%]
+           3372729      dTLB-store-misses                                            [71.43%]
+            356553      iTLB-load-misses                                             [57.12%]
+
+      38.436646236 seconds time elapsed
+

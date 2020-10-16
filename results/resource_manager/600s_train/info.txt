@@ -1,0 +1,4 @@
+benchmarks = ["600.perlbench_s", "625.x264_s", "644.nab_s", "648.exchange2_s", "619.lbm_s", "649.fotonik3d_s", "654.roms_s", "603.bwaves_s"]
+input = train
+conf1: all benchmarks -m 0 -N 0
+conf2: First four -m 1 -N 0, last four -m 0 -N 0 

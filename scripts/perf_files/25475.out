@@ -1,0 +1,43 @@
+# started on Sat May  2 21:16:51 2020
+
+#           time             counts unit events
+     1.000211527         999,960311      task-clock (msec)         [100,00%]
+     1.000211527                  2      context-switches          [100,00%]
+     1.000211527                  0      cpu-migrations            [100,00%]
+     1.000211527               2835      page-faults              
+     1.000211527         2195749741      cycles                    [75,20%]
+     1.000211527         1335250589      stalled-cycles-frontend   [75,21%]
+     1.000211527          690571067      stalled-cycles-backend    [75,21%]
+     1.000211527         2615517733      instructions              [75,21%]
+     1.000211527          238413002      branches                  [74,80%]
+     1.000211527            3291538      branch-misses             [74,40%]
+     2.000469195         999,228919      task-clock (msec)        
+     2.000469195                  1      context-switches         
+     2.000469195                  0      cpu-migrations           
+     2.000469195               6516      page-faults              
+     2.000469195         2196006802      cycles                    [74,76%]
+     2.000469195         1352756549      stalled-cycles-frontend   [75,16%]
+     2.000469195          696086389      stalled-cycles-backend    [75,20%]
+     2.000469195         2630799564      instructions              [75,21%]
+     2.000469195          233495811      branches                  [75,21%]
+     2.000469195            3444291      branch-misses             [75,20%]
+     3.000699223         999,008391      task-clock (msec)        
+     3.000699223                  2      context-switches         
+     3.000699223                  0      cpu-migrations           
+     3.000699223               6174      page-faults              
+     3.000699223         2195387900      cycles                    [74,85%]
+     3.000699223         1334837706      stalled-cycles-frontend   [74,45%]
+     3.000699223          698698313      stalled-cycles-backend    [74,73%]
+     3.000699223         2659731109      instructions              [75,13%]
+     3.000699223          278636887      branches                  [75,20%]
+     3.000699223            4098539      branch-misses             [75,20%]
+     4.000901292         999,199965      task-clock (msec)        
+     4.000901292                  1      context-switches         
+     4.000901292                  0      cpu-migrations           
+     4.000901292               6515      page-faults              
+     4.000901292         2195922824      cycles                    [75,21%]
+     4.000901292         1343691206      stalled-cycles-frontend   [75,20%]
+     4.000901292          713740062      stalled-cycles-backend    [74,88%]
+     4.000901292         2524779538      instructions              [74,48%]
+     4.000901292          260782880      branches                  [74,71%]
+     4.000901292            3690395      branch-misses             [75,11%]

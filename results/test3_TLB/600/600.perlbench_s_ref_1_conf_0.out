@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./perlbench_s_base.dunnington-x86-m64 -I./lib diffmail.pl 4 800 10 17 19 300 > diffmail.4.800.10.17.19.300.out 2>> diffmail.4.800.10.17.19.300.err 1> diffmail.4.800.10.17.19.300.out 2> diffmail.4.800.10.17.19.300.err':
+
+      713573115409      instructions             
+         119665219      dTLB-load-misses                                            
+          21545924      dTLB-store-misses                                           
+          36355023      iTLB-load-misses                                            
+
+     218.369627316 seconds time elapsed
+

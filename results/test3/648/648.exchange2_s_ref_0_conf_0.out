@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./exchange2_s_base.dunnington-x86-m64 6 > exchange2.txt 2>> exchange2.err 1> exchange2.txt 2> exchange2.err':
+
+     2287347394235      cycles                   
+     4325007783061      instructions              #    1.89  insns per cycle        
+          89550074      LLC-load-misses                                             
+          18645774      LLC-store-misses                                            
+
+     888.664910975 seconds time elapsed
+

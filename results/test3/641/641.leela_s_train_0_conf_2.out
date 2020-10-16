@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./leela_s_base.dunnington-x86-m64 train.sgf > train.out 2>> train.err 1> train.out 2> train.err':
+
+      336532866116      cycles                   
+      354259257145      instructions              #    1.05  insns per cycle        
+          86111726      LLC-load-misses                                             
+          27374844      LLC-store-misses                                            
+
+     130.750073924 seconds time elapsed
+

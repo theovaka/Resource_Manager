@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./sgcc_base.dunnington-x86-m64 200.c -O3 -finline-limit=50000 -o 200.opts-O3_-finline-limit_50000.s > 200.opts-O3_-finline-limit_50000.out 2>> 200.opts-O3_-finline-limit_50000.err 1> 200.opts-O3_-finline-limit_50000.out 2> 200.opts-O3_-finline-limit_50000.err':
+
+      183859882024      cycles                   
+      102558742047      instructions              #    0.56  insns per cycle        
+         356526325      LLC-load-misses                                             
+          45110155      LLC-store-misses                                            
+
+      71.472630838 seconds time elapsed
+

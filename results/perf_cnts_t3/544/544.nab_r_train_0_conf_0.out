@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./nab_r_base.dunnington-x86-m64 aminos 391519156 1000 > aminos.out 2>> aminos.err 1> aminos.out 2> aminos.err':
+
+       41118460220      cycles                    [57.18%]
+       48857494932      instructions              #    1.19  insns per cycle         [71.46%]
+           5555454      LLC-load-misses                                              [71.46%]
+           1482538      LLC-store-misses                                             [71.43%]
+             58842      dTLB-load-misses                                             [71.43%]
+             13403      dTLB-store-misses                                            [71.41%]
+             21180      iTLB-load-misses                                             [57.13%]
+
+      16.075012512 seconds time elapsed
+

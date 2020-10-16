@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./nab_r_base.dunnington-x86-m64 1am0 1122214447 122 > 1am0.out 2>> 1am0.err 1> 1am0.out 2> 1am0.err':
+
+     2235218772628      instructions             
+          23076716      dTLB-load-misses                                            
+           1265437      dTLB-store-misses                                           
+             29751      iTLB-load-misses                                            
+
+     824.911744359 seconds time elapsed
+

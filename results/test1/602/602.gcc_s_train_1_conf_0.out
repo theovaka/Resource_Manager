@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./sgcc_base.dunnington-x86-m64 scilab.c -O3 -finline-limit=50000 -o scilab.opts-O3_-finline-limit_50000.s > scilab.opts-O3_-finline-limit_50000.out 2>> scilab.opts-O3_-finline-limit_50000.err 1> scilab.opts-O3_-finline-limit_50000.out 2> scilab.opts-O3_-finline-limit_50000.err':
+
+       64251866549      cycles                   
+       79581911567      instructions              #    1.24  insns per cycle        
+           5749856      LLC-load-misses                                             
+          11639398      LLC-store-misses                                            
+
+      24.978363422 seconds time elapsed
+

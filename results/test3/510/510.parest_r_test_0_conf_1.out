@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./parest_r_base.dunnington-x86-m64 test.prm > test.out 2>> test.err 1> test.out 2> test.err':
+
+       35908990369      cycles                   
+       34787741544      instructions              #    0.97  insns per cycle        
+         232626874      LLC-load-misses                                             
+           5297921      LLC-store-misses                                            
+
+      13.964836744 seconds time elapsed
+

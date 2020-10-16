@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./perlbench_s_base.dunnington-x86-m64 -I. -I./lib makerand.pl > makerand.out 2>> makerand.err 1> makerand.out 2> makerand.err':
+
+        1297167364      cycles                    [57.21%]
+        2122477752      instructions              #    1.64  insns per cycle         [71.37%]
+            120512      LLC-load-misses                                              [71.70%]
+             31973      LLC-store-misses                                             [71.70%]
+             18187      dTLB-load-misses                                             [72.12%]
+               129      dTLB-store-misses                                            [71.37%]
+              1581      iTLB-load-misses                                             [56.75%]
+
+       0.515370203 seconds time elapsed
+

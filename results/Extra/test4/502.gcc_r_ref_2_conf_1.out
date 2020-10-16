@@ -1,0 +1,11 @@
+
+ Performance counter stats for 'numactl -m 1 -N 0 /bin/bash -c ./cpugcc_r_base.dunnington-x86-m64 gcc-smaller.c -O3 -fipa-pta -o gcc-smaller.opts-O3_-fipa-pta.s > gcc-smaller.opts-O3_-fipa-pta.out 2>> gcc-smaller.opts-O3_-fipa-pta.err 1> gcc-smaller.opts-O3_-fipa-pta.out 2> gcc-smaller.opts-O3_-fipa-pta.err':
+
+      256602789128      cycles                   
+      236035287209      instructions              #    0.92  insns per cycle        
+         381719677      dTLB-load-misses                                            
+          25968851      dTLB-store-misses                                           
+          19250609      iTLB-load-misses                                            
+
+     116.774018496 seconds time elapsed
+

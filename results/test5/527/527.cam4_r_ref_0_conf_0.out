@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./cam4_r_base.dunnington-x86-m64 > cam4_r_base.txt 2>> cam4_r_base.err 1> cam4_r_base.txt 2> cam4_r_base.err':
+
+     8306934121507      cycles                   
+     2913879257106      instructions              #    0.35  insns per cycle        
+        7580230438      LLC-load-misses                                             
+        4406415163      LLC-store-misses                                            
+
+    3642.444983073 seconds time elapsed
+

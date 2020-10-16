@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./sgcc_base.dunnington-x86-m64 train01.c -O3 -finline-limit=50000 -o train01.opts-O3_-finline-limit_50000.s > train01.opts-O3_-finline-limit_50000.out 2>> train01.opts-O3_-finline-limit_50000.err 1> train01.opts-O3_-finline-limit_50000.out 2> train01.opts-O3_-finline-limit_50000.err':
+
+        9277882778      cycles                    [57.28%]
+        8775559157      instructions              #    0.95  insns per cycle         [71.56%]
+          24393207      LLC-load-misses                                              [71.45%]
+           3594237      LLC-store-misses                                             [71.42%]
+           6487055      dTLB-load-misses                                             [71.42%]
+            794594      dTLB-store-misses                                            [71.30%]
+            520339      iTLB-load-misses                                             [57.22%]
+
+       3.648030845 seconds time elapsed
+

@@ -1,0 +1,16 @@
+500.perlbench_r	355.317
+508.namd_r	571.332
+541.leela_r	968.344
+544.nab_r	855.405
+520.omnetpp_r	1256.651
+505.mcf_r	893.675
+519.lbm_r	1062.14
+549.fotonik3d_r	1063.593
+600.perlbench_s	2982.655
+641.leela_s	4736.195
+644.nab_s	3828.888
+648.exchange2_s	4892.839
+619.lbm_s	4100.609
+649.fotonik3d_s	3712.533
+654.roms_s	5530.273
+603.bwaves_s	5169.905

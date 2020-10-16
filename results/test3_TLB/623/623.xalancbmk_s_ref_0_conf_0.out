@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./xalancbmk_s_base.dunnington-x86-m64 -v t5.xml xalanc.xsl > ref-t5.out 2>> ref-t5.err 1> ref-t5.out 2> ref-t5.err':
+
+     1281915768177      instructions             
+       12703083711      dTLB-load-misses                                            
+          95952923      dTLB-store-misses                                           
+         250944833      iTLB-load-misses                                            
+
+     842.340288266 seconds time elapsed
+

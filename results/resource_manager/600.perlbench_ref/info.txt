@@ -1,0 +1,4 @@
+benchmarks = ["600.perlbench_s"]
+input = ref
+conf1: bench + 7 stressors -m 0 -N 0
+conf2: 7 stressors -m 0 -N 0 bench -m 1 -N 0

@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./fotonik3d_r_base.dunnington-x86-m64 > fotonik3d_r.log 2>> fotonik3d_r.err 1> fotonik3d_r.log 2> fotonik3d_r.err':
+
+     2408246035637      instructions             
+        2696143730      dTLB-load-misses                                            
+         135055353      dTLB-store-misses                                           
+             89425      iTLB-load-misses                                            
+
+     937.291356139 seconds time elapsed
+

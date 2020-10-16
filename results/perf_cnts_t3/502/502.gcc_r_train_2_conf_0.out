@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./cpugcc_r_base.dunnington-x86-m64 train01.c -O3 -finline-limit=50000 -o train01.opts-O3_-finline-limit_50000.s > train01.opts-O3_-finline-limit_50000.out 2>> train01.opts-O3_-finline-limit_50000.err 1> train01.opts-O3_-finline-limit_50000.out 2> train01.opts-O3_-finline-limit_50000.err':
+
+        9262538252      cycles                    [57.00%]
+        8764843619      instructions              #    0.95  insns per cycle         [71.28%]
+          25135485      LLC-load-misses                                              [71.65%]
+           3632256      LLC-store-misses                                             [71.65%]
+           6544415      dTLB-load-misses                                             [71.64%]
+            792488      dTLB-store-misses                                            [71.39%]
+            542873      iTLB-load-misses                                             [56.79%]
+
+       3.790861608 seconds time elapsed
+

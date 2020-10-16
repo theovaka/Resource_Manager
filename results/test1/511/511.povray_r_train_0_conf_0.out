@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./povray_r_base.dunnington-x86-m64 SPEC-benchmark-train.ini > SPEC-benchmark-train.stdout 2>> SPEC-benchmark-train.stderr 1> SPEC-benchmark-train.stdout 2> SPEC-benchmark-train.stderr':
+
+       16764211674      cycles                   
+       29662118305      instructions              #    1.77  insns per cycle        
+             22399      LLC-load-misses                                             
+             58813      LLC-store-misses                                            
+
+       7.890213204 seconds time elapsed
+

@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./cactusBSSN_r_base.dunnington-x86-m64 spec_test.par > spec_test.out 2>> spec_test.err 1> spec_test.out 2> spec_test.err':
+
+       17451660522      cycles                   
+       21186822407      instructions              #    1.21  insns per cycle        
+          38660547      LLC-load-misses                                             
+          19912943      LLC-store-misses                                            
+
+       7.944501190 seconds time elapsed
+

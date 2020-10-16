@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./deepsjeng_s_base.dunnington-x86-m64 test.txt > test.out 2>> test.err 1> test.out 2> test.err':
+
+      104931403050      cycles                   
+       43868237667      instructions              #    0.42  insns per cycle        
+          35396684      LLC-load-misses                                             
+         196755376      LLC-store-misses                                            
+
+      45.988044439 seconds time elapsed
+

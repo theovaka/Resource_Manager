@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./perlbench_r_base.dunnington-x86-m64 -I. -I./lib test.pl > test.out 2>> test.err 1> test.out 2> test.err':
+
+       57725159255      cycles                    [58.46%]
+       65131619219      instructions              #    1.13  insns per cycle         [73.18%]
+          25309087      LLC-load-misses                                              [73.18%]
+          15693977      LLC-store-misses                                             [72.57%]
+          22788471      dTLB-load-misses                                             [71.88%]
+           3829922      dTLB-store-misses                                            [72.07%]
+           9112496      iTLB-load-misses                                             [56.71%]
+
+      46.075534522 seconds time elapsed
+

@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./roms_r_base.dunnington-x86-m64 < ocean_benchmark1.in.x > ocean_benchmark1.log 2>> ocean_benchmark1.err < ocean_benchmark1.in.x 1> ocean_benchmark1.log 2> ocean_benchmark1.err':
+
+     2700294611600      cycles                   
+     1210790314149      instructions              #    0.45  insns per cycle        
+        8015973371      LLC-load-misses                                             
+        1857239653      LLC-store-misses                                            
+
+    1183.245616021 seconds time elapsed
+

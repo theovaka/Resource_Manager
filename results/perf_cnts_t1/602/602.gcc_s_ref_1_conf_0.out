@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./sgcc_base.dunnington-x86-m64 gcc-pp.c -O5 -finline-limit=1000 -fselective-scheduling -fselective-scheduling2 -o gcc-pp.opts-O5_-finline-limit_1000_-fselective-scheduling_-fselective-scheduling2.s > gcc-pp.opts-O5_-finline-limit_1000_-fselective-scheduling_-fselective-scheduling2.out 2>> gcc-pp.opts-O5_-finline-limit_1000_-fselective-scheduling_-fselective-scheduling2.err 1> gcc-pp.opts-O5_-finline-limit_1000_-fselective-scheduling_-fselective-scheduling2.out 2> gcc-pp.opts-O5_-finline-limit_1000_-fselective-scheduling_-fselective-scheduling2.err':
+
+      464632282052      cycles                    [57.15%]
+      523545438811      instructions              #    1.13  insns per cycle         [71.43%]
+         230794079      LLC-load-misses                                              [71.43%]
+          85734592      LLC-store-misses                                             [71.43%]
+         823188416      dTLB-load-misses                                             [71.43%]
+          79157797      dTLB-store-misses                                            [71.43%]
+          71005599      iTLB-load-misses                                             [57.14%]
+
+     179.484462614 seconds time elapsed
+

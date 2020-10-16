@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -i 0,1 -N 0 /bin/bash -c ./blender_r_base.dunnington-x86-m64 sh3_no_char.blend --render-output sh3_no_char_ --threads 1 -b -F RAWTGA -s 849 -e 849 -a > sh3_no_char.849.spec.out 2>> sh3_no_char.849.spec.err 1> sh3_no_char.849.spec.out 2> sh3_no_char.849.spec.err':
+
+     1995996479240      cycles                   
+     1856011559827      instructions              #    0.93  insns per cycle        
+        3489478660      LLC-load-misses                                             
+          83702165      LLC-store-misses                                            
+
+     775.478906974 seconds time elapsed
+

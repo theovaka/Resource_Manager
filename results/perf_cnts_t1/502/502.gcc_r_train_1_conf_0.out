@@ -1,0 +1,13 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./cpugcc_r_base.dunnington-x86-m64 scilab.c -O3 -finline-limit=50000 -o scilab.opts-O3_-finline-limit_50000.s > scilab.opts-O3_-finline-limit_50000.out 2>> scilab.opts-O3_-finline-limit_50000.err 1> scilab.opts-O3_-finline-limit_50000.out 2> scilab.opts-O3_-finline-limit_50000.err':
+
+       64608086181      cycles                    [57.14%]
+       79732804389      instructions              #    1.23  insns per cycle         [71.44%]
+           5702204      LLC-load-misses                                              [71.44%]
+          11018820      LLC-store-misses                                             [71.46%]
+         102616326      dTLB-load-misses                                             [71.46%]
+          10819289      dTLB-store-misses                                            [71.42%]
+           5402528      iTLB-load-misses                                             [57.11%]
+
+      25.122561645 seconds time elapsed
+

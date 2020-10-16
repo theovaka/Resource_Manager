@@ -1,0 +1,8 @@
+benchmarks = ["500.perlbench_r", "508.namd_r", "541.leela_r", "544.nab_r", "520.omnetpp_r", "505.mcf_r", "519.lbm_r", "549.fotonik3d_r"]
+input = ref
+conf1: all benchmarks -m 0 -N 0
+conf2: First four -m 1 -N 0, last four -m 0 -N 0 
+conf3: Last four -m 1 -N 0, First four -m 0 -N 0
+conf4: all benchmarks -m 0 -N 0 + 8 stressors -m 0 -N 1
+conf5: First four -m 1 -N 0, last four + 8 stressors -m 0 -N 1
+conf6: Last four -m 1 -N 0, first four -m 0 -N 0 + 8 stressors -m 0 -N 1

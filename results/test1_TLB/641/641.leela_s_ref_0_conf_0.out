@@ -1,0 +1,10 @@
+
+ Performance counter stats for 'numactl -m 0 -N 0 /bin/bash -c ./leela_s_base.dunnington-x86-m64 ref.sgf > ref.out 2>> ref.err 1> ref.out 2> ref.err':
+
+     2155757301869      instructions             
+          97459898      dTLB-load-misses                                            
+          18021742      dTLB-store-misses                                           
+           1330897      iTLB-load-misses                                            
+
+     819.676237916 seconds time elapsed
+
